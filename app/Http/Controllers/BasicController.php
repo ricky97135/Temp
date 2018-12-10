@@ -9,6 +9,7 @@ class BasicController extends Controller
 {
 	public function index() {
 		error_log('ricky in 2222');
+		error_log('ricky in');
 		return view('index');
 	}
 }
